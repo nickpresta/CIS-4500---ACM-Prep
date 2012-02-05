@@ -1,0 +1,2 @@
+A solution to the maximal number of regions obtained by joining n points around a circle by straight lines.
+Uses a modified algorithm for Pascal's Triangle to calculate the number of free regions available given the number of points.
