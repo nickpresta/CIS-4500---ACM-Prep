@@ -1,0 +1,5 @@
+Calculates the edit distance between two strings passed on the command line.
+
+Example:
+$ ./edit hello hello
+0
