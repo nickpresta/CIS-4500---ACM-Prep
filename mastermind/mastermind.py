@@ -20,7 +20,7 @@ class MastermindSolver(object):
         if attempts == 1:
             # first through, get AABB
             attempt = 'AABB'
-        elif attempts == 2 and score[0] == 0:
+        elif attempts == 2 and score == (0, 0):
             # second time through, first score for 'AABB' returned 0
             attempt = 'CCDE'
         elif len(possible_solutions) == 1:
