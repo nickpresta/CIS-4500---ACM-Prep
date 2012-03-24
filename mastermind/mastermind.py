@@ -2,6 +2,7 @@
 #-*- coding: utf-8 -*-
 
 from itertools import product
+from functools import lru_cache
 
 class MastermindSolver(object):
     def __init__(self, problem_set):
@@ -40,6 +41,7 @@ class MastermindSolver(object):
 
         return steps
 
+    @lru_cache(maxsize=None)
     def _score(self, sol, attempts):
         first = len([speg for speg, opeg in zip(sol, attempts) if speg == opeg])
         score = sum([min(sol.count(c), attempts.count(c)) for c in self.problem_set]) - first

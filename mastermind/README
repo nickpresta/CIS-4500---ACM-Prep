@@ -1,3 +1,5 @@
+Requires Python 3.2 to run for functools.lru_cache.
+
 A simple Mastermind solver implementing Knuth's five-guess algorithm:
 
 https://en.wikipedia.org/wiki/Mastermind_(board_game)#Five-guess_algorithm
