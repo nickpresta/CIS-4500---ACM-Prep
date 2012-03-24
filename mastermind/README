@@ -1,0 +1,8 @@
+A simple Mastermind solver implementing Knuth's five-guess algorithm:
+
+https://en.wikipedia.org/wiki/Mastermind_(board_game)#Five-guess_algorithm
+
+
+Code inspired by:
+https://gvxdev.wordpress.com/2011/05/16/mastermind-solver/
+http://stackoverflow.com/questions/1185634/how-to-solve-the-mastermind-guessing-game
